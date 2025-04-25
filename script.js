@@ -3,10 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (videoWrapper) {
     videoWrapper.setAttribute("loading", "lazy");
   }
-});
 
-// Adiciona comportamento de rolagem suave para links internos
-const smoothScroll = () => {
+  // Comportamento de rolagem suave
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
@@ -16,5 +14,4 @@ const smoothScroll = () => {
       }
     });
   });
-};
-smoothScroll();
+});

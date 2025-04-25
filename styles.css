@@ -149,7 +149,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('img/ferramentas.webp');
+  background-image: url('https://github.com/Ricardors30/ricardosantos/raw/main/img/ferramentas.webp');
   background-size: cover;
   background-position: center;
   filter: blur(1px);
