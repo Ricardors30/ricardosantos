@@ -14,7 +14,7 @@ body {
 }
 
 .destaque {
-  color: #3e5bfc; /* vermelho suave */
+  color: #3093f0cc; /* azul suave */
 }
 
 .container {
@@ -149,7 +149,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('https://github.com/Ricardors30/ricardosantos/raw/main/img/ferramentas.webp');
+  background-image: url('img/ferramentas.webp');
   background-size: cover;
   background-position: center;
   filter: blur(1px);
@@ -166,7 +166,7 @@ li {
 .processo ol li,
 .contato p,
 .header p {
-  background: rgba(48, 147, 240, 0.8);
+  background: #3093f0cc;
   padding: 1rem 1rem;
   border-radius: 10px;
   margin-bottom: 1rem;
